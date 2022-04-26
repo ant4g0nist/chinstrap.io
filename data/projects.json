@@ -6,7 +6,7 @@
             "stars": "21",
             "desc": "A development environment, testing framework, and origination pipeline focused solely on Tezos",
             "code": "https://github.com/ant4g0nist/chinstrap",
-            "videoUrl": "videos/video01.mov",
+            "videoUrl": "img/chinstrap.svg",
             "imageUrl":"img/screen01.png",
             "docsUrl":"https://docs.chinstrap.io"
         }

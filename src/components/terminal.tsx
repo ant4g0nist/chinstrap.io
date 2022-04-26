@@ -19,7 +19,8 @@ export const Terminal = (props: TerminalProps) => {
                 {props.tabName ? <div className="terminal__tab">{props.tabName}</div> : null}
             </div>
             <div className="terminal__body">
-                <Video videoUrl={props.videoUrl} initialInView={props.initialInView} />
+                {/* <Video videoUrl={props.videoUrl} initialInView={props.initialInView} /> */}
+                <img src={props.videoUrl}></img>
             </div>
         </div>
     )

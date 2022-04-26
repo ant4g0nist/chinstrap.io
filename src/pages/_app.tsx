@@ -24,8 +24,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>Textualize</title>
-                <meta name="description" content="Because Terminals are here to stay" />
+                <title>Chinstrap</title>
+                <meta name="description" content="With Chinstrap, building on Tezos has become more powerful and cuter than before" />
             </Head>
 
             <Layout>
