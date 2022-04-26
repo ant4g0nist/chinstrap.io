@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# We have command line scripts written in TypeScript, that we transpile to JavaScript
+# before running them with Node (much simpler way to do it than using `ts-node`).
+# They're transpiled into this folder:
+/scripts-output
+
+# Codegen: the following folders is where we put generated code via our
+# "npm run codegen:*" commands.
+# The result of such codegen should not be versioned.
+/src/codegen/data/project-galleries/*
+!/src/codegen/data/project-galleries/.gitkeep
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

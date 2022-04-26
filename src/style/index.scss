@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+@import "./variables.scss";
+@import "./root.scss";
+@import "./css-reset.scss";
+@import "./base.scss";
+// components
+@import "./components/input.scss";
+@import "./components/badge.scss";
+@import "components/atomic/button";
+@import "./components/callout.scss";
+@import "./components/container.scss";
+@import "./components/pagination.scss";
+@import "./components/terminal";
+@import "./components/video.scss";
+@import "./components/nav.scss";
+@import "./components/logo.scss";
+@import "components/atomic/categories";
+
+// modules
+@import "./sections/hero.scss";
+@import "./sections/mail-list.scss";
+@import "./sections/projects-index.scss";
+@import "./sections/project.scss";
+@import "./sections/gallery-index.scss";
+@import "./sections/gallery-item.scss";
+@import "./sections/footer.scss";
+
+// utilities
+@import "./utilities/common.scss";
