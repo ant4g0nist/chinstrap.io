@@ -11,7 +11,6 @@ const TWITTER_SITE = "@ant4g0nist"
 const OPENGRAPH_TYPE = "website"
 
 export function SocialMediaMetaTags(): JSX.Element {
-    // Basically modeled after `view-source:https://github.com/Textualize/rich` ^_^
 
     return (
         <>

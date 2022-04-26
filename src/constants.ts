@@ -15,19 +15,19 @@ interface SocialLink {
 }
 export const SOCIAL_LINKS: { [name: string]: SocialLink } = {
     Twitter: {
-        url: AppConfig.textualize.urls.twitter,
+        url: AppConfig.chinstrap.urls.twitter,
         xlinkHref: "#icon-twitter",
         appearsInHeader: true,
         appearsInFooter: true,
     },
     GitHub: {
-        url: AppConfig.textualize.urls.github,
+        url: AppConfig.chinstrap.urls.github,
         xlinkHref: "#icon-github",
         appearsInHeader: true,
         appearsInFooter: true,
     },
     Telegram: {
-        url: AppConfig.textualize.urls.telegram,
+        url: AppConfig.chinstrap.urls.telegram,
         xlinkHref: "#icon-discourse",
         appearsInHeader: true,
         appearsInFooter: true,

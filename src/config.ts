@@ -5,9 +5,8 @@ export const AppConfig = {
         trackingCode: process.env["NEXT_PUBLIC_FATHOM_TRACKING_CODE"] || "",
         includedDomains: (process.env["NEXT_PUBLIC_FATHOM_INCLUDED_DOMAINS"] || "").split(","),
     },
-    subscribeUrl: "https://textualize.us5.list-manage.com/subscribe/post?u=54502e6fe10e01c3c186d5de1&amp;id=bb8c187ac0",
-    hiringUrl: "https://blog.textualize.io/2022/03/06/were-hiring/",
-    textualize: {
+    
+    chinstrap: {
         urls: {
             twitter: "https://twitter.com/ant4g0nist",
             github: "https://github.com/ant4g0nist/chinstrap",

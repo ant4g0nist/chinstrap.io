@@ -12,11 +12,7 @@ interface PageCharacteristics {
 }
 const MARKDOWN_BASED_PAGES: PageCharacteristics[] = [
     { path: "contact-us", h1: "Contact Us" },
-    { path: "gallery-instructions", h1: "Adding to the Gallery" },
-    { path: "jobs", h1: "Jobs for Textualize" },
-    { path: "privacy", h1: "Privacy" },
-    { path: "terms", h1: "Terms and Conditions" },
-    { path: "what-we-do", h1: "What we do" },
+    { path: "about", h1: "What we do" },
 ]
 
 describe("website smoke tests", () => {
