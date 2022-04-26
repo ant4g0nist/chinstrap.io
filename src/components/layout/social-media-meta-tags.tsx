@@ -1,12 +1,12 @@
 import React from "react"
 
 // Shared content
-const TITLE = `Textualize.io`
-const DESCRIPTION = `The terminal can be more powerful and beautiful than you ever thought`
-const IMAGE_URL = "/img/social-share-view.png"
-const SITE_URL = "https://www.textualize.io/"
+const TITLE = `Chinstrap.io`
+const DESCRIPTION = `With Chinstrap, building on Tezos has become more powerful and cuter than before`
+const IMAGE_URL = "/img/logo.png"
+const SITE_URL = "https://chinstrap.io/"
 // Twitter-specific stuff
-const TWITTER_SITE = "@textualizeio"
+const TWITTER_SITE = "@ant4g0nist"
 // OpenGraph-specific stuff
 const OPENGRAPH_TYPE = "website"
 
