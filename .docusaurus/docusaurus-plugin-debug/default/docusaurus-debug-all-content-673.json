@@ -78,7 +78,7 @@
               "unversionedId": "index",
               "id": "index",
               "title": "Deploy with Chinstrap",
-              "description": "Chinstrap, developed by ant4g0nist, uses python scripts to perform smart contract deployments and makes deployments easier and faster.",
+              "description": "Chinstrap",
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
