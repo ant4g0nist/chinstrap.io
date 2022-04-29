@@ -14,7 +14,7 @@ function HomepageHeader() {
         <img src='img/chinstrap.png' height='220' />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <h1 className="asubtitle"><a href='https://twitter.com/ant4g0nist/status/1498751543520153604?s=20&t=H0sDl9A8ETVnCHuiEqpokQ' target='_blank'>Backed by Tezos Foundation Grant 🎉</a></h1>
+        <h1 className="asubtitle"><a href='https://twitter.com/ant4g0nist/status/1498751543520153604' target='_blank'>Backed by Tezos Foundation Grant 🎉</a></h1>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
