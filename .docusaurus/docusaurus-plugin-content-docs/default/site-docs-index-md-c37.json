@@ -1,0 +1,22 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Deploy with Chinstrap",
+  "description": "Chinstrap, developed by ant4g0nist, uses python scripts to perform smart contract deployments and makes deployments easier and faster.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Deploy with Chinstrap",
+    "authors": "ant4g0nist"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "*Chinstrap* installation",
+    "permalink": "/docs/installation"
+  }
+}

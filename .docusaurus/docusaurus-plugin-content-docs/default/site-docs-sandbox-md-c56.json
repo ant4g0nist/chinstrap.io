@@ -1,0 +1,23 @@
+{
+  "unversionedId": "sandbox",
+  "id": "sandbox",
+  "title": "Sandbox",
+  "description": "Chinstrap provides a sandbox sub-command to manage a local development node with flextesa sandbox. This enables development and testing smart contracts on test network, before we proceed with mainnet.",
+  "source": "@site/docs/sandbox.md",
+  "sourceDirName": ".",
+  "slug": "/sandbox",
+  "permalink": "/docs/sandbox",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sandbox.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compiling smart contracts with *Chinstrap*",
+    "permalink": "/docs/compilation"
+  },
+  "next": {
+    "title": "Originating smart contracts with *Chinstrap*",
+    "permalink": "/docs/origination"
+  }
+}

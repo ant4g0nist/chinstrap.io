@@ -1,0 +1,18 @@
+export default {
+  '0480b142': [() => import(/* webpackChunkName: '0480b142' */ '@site/docs/faq.md'), '@site/docs/faq.md', require.resolveWeak('@site/docs/faq.md')],
+  '17896441': [() => import(/* webpackChunkName: '17896441' */ '@theme/DocItem'), '@theme/DocItem', require.resolveWeak('@theme/DocItem')],
+  '1be78505': [() => import(/* webpackChunkName: '1be78505' */ '@theme/DocPage'), '@theme/DocPage', require.resolveWeak('@theme/DocPage')],
+  '1f391b9e': [() => import(/* webpackChunkName: '1f391b9e' */ '@theme/MDXPage'), '@theme/MDXPage', require.resolveWeak('@theme/MDXPage')],
+  '393be207': [() => import(/* webpackChunkName: '393be207' */ '@site/src/pages/markdown-page.md'), '@site/src/pages/markdown-page.md', require.resolveWeak('@site/src/pages/markdown-page.md')],
+  '3b8c55ea': [() => import(/* webpackChunkName: '3b8c55ea' */ '@site/docs/installation.md'), '@site/docs/installation.md', require.resolveWeak('@site/docs/installation.md')],
+  '5e9f5e1a': [() => import(/* webpackChunkName: '5e9f5e1a' */ '@generated/docusaurus.config'), '@generated/docusaurus.config', require.resolveWeak('@generated/docusaurus.config')],
+  '6476eba6': [() => import(/* webpackChunkName: '6476eba6' */ '@site/docs/usage.md'), '@site/docs/usage.md', require.resolveWeak('@site/docs/usage.md')],
+  '85be18e3': [() => import(/* webpackChunkName: '85be18e3' */ '@site/docs/conclusion.md'), '@site/docs/conclusion.md', require.resolveWeak('@site/docs/conclusion.md')],
+  '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],
+  '9f788d66': [() => import(/* webpackChunkName: '9f788d66' */ '@site/docs/compilation.md'), '@site/docs/compilation.md', require.resolveWeak('@site/docs/compilation.md')],
+  'b2bb6b30': [() => import(/* webpackChunkName: 'b2bb6b30' */ '/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json'), '/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json', require.resolveWeak('/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json')],
+  'c377a04b': [() => import(/* webpackChunkName: 'c377a04b' */ '@site/docs/index.md'), '@site/docs/index.md', require.resolveWeak('@site/docs/index.md')],
+  'c4f5d8e4': [() => import(/* webpackChunkName: 'c4f5d8e4' */ '@site/src/pages/index.js'), '@site/src/pages/index.js', require.resolveWeak('@site/src/pages/index.js')],
+  'c563e38a': [() => import(/* webpackChunkName: 'c563e38a' */ '@site/docs/sandbox.md'), '@site/docs/sandbox.md', require.resolveWeak('@site/docs/sandbox.md')],
+  'd1737f06': [() => import(/* webpackChunkName: 'd1737f06' */ '/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json'), '/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json', require.resolveWeak('/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json')],
+  'f79f4243': [() => import(/* webpackChunkName: 'f79f4243' */ '@site/docs/origination.md'), '@site/docs/origination.md', require.resolveWeak('@site/docs/origination.md')],};

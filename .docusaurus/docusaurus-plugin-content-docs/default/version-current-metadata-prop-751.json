@@ -1,0 +1,104 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "👋 Introduction",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "🎬 Installation",
+        "href": "/docs/installation",
+        "docId": "installation"
+      },
+      {
+        "type": "link",
+        "label": "📖 Usage",
+        "href": "/docs/usage",
+        "docId": "usage"
+      },
+      {
+        "type": "link",
+        "label": "⏳ Compilation",
+        "href": "/docs/compilation",
+        "docId": "compilation"
+      },
+      {
+        "type": "link",
+        "label": "🍱 Sandbox",
+        "href": "/docs/sandbox",
+        "docId": "sandbox"
+      },
+      {
+        "type": "link",
+        "label": "🖥️ Origination",
+        "href": "/docs/origination",
+        "docId": "origination"
+      },
+      {
+        "type": "link",
+        "label": "🏁 Conclusion",
+        "href": "/docs/conclusion",
+        "docId": "conclusion"
+      }
+    ]
+  },
+  "docs": {
+    "compilation": {
+      "id": "compilation",
+      "title": "Compiling smart contracts with *Chinstrap*",
+      "description": "Chinstrap is mainly used for smart contract compilation, originations and testing.",
+      "sidebar": "tutorialSidebar"
+    },
+    "conclusion": {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "description": "The first step in developing a Dapp is to deploy the smart contracts. Chinstrap takes LIGO/SmartPy code and deploys it onto any public or private network. Each origination needs an initial storage that is compliant with the storage type of Michelson code.",
+      "sidebar": "tutorialSidebar"
+    },
+    "faq": {
+      "id": "faq",
+      "title": "FAQ",
+      "description": ""
+    },
+    "index": {
+      "id": "index",
+      "title": "Deploy with Chinstrap",
+      "description": "Chinstrap, developed by ant4g0nist, uses python scripts to perform smart contract deployments and makes deployments easier and faster.",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation": {
+      "id": "installation",
+      "title": "*Chinstrap* installation",
+      "description": "Requirements and dependencies",
+      "sidebar": "tutorialSidebar"
+    },
+    "origination": {
+      "id": "origination",
+      "title": "Originating smart contracts with *Chinstrap*",
+      "description": "At this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sandbox": {
+      "id": "sandbox",
+      "title": "Sandbox",
+      "description": "Chinstrap provides a sandbox sub-command to manage a local development node with flextesa sandbox. This enables development and testing smart contracts on test network, before we proceed with mainnet.",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage": {
+      "id": "usage",
+      "title": "Usage",
+      "description": "You can get list of sub-commands supported by Chinstrap by running:",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

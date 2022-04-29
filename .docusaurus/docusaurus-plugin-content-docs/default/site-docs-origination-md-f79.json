@@ -1,0 +1,23 @@
+{
+  "unversionedId": "origination",
+  "id": "origination",
+  "title": "Originating smart contracts with *Chinstrap*",
+  "description": "At this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations.",
+  "source": "@site/docs/origination.md",
+  "sourceDirName": ".",
+  "slug": "/origination",
+  "permalink": "/docs/origination",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/origination.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sandbox",
+    "permalink": "/docs/sandbox"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/conclusion"
+  }
+}

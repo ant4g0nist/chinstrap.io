@@ -1,0 +1,23 @@
+{
+  "unversionedId": "usage",
+  "id": "usage",
+  "title": "Usage",
+  "description": "You can get list of sub-commands supported by Chinstrap by running:",
+  "source": "@site/docs/usage.md",
+  "sourceDirName": ".",
+  "slug": "/usage",
+  "permalink": "/docs/usage",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "*Chinstrap* installation",
+    "permalink": "/docs/installation"
+  },
+  "next": {
+    "title": "Compiling smart contracts with *Chinstrap*",
+    "permalink": "/docs/compilation"
+  }
+}
