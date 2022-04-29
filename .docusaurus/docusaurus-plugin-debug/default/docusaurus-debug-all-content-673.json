@@ -1,0 +1,268 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/sidebars.js",
+          "contentPath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/docs",
+          "contentPathLocalized": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "compilation",
+              "id": "compilation",
+              "title": "Compiling smart contracts with *Chinstrap*",
+              "description": "Chinstrap is mainly used for smart contract compilation, originations and testing.",
+              "source": "@site/docs/compilation.md",
+              "sourceDirName": ".",
+              "slug": "/compilation",
+              "permalink": "/docs/compilation",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/compilation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Usage",
+                "permalink": "/docs/usage"
+              },
+              "next": {
+                "title": "Sandbox",
+                "permalink": "/docs/sandbox"
+              }
+            },
+            {
+              "unversionedId": "conclusion",
+              "id": "conclusion",
+              "title": "Conclusion",
+              "description": "The first step in developing a Dapp is to deploy the smart contracts. Chinstrap takes LIGO/SmartPy code and deploys it onto any public or private network. Each origination needs an initial storage that is compliant with the storage type of Michelson code.",
+              "source": "@site/docs/conclusion.md",
+              "sourceDirName": ".",
+              "slug": "/conclusion",
+              "permalink": "/docs/conclusion",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/conclusion.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Originating smart contracts with *Chinstrap*",
+                "permalink": "/docs/origination"
+              }
+            },
+            {
+              "unversionedId": "faq",
+              "id": "faq",
+              "title": "FAQ",
+              "description": "",
+              "source": "@site/docs/faq.md",
+              "sourceDirName": ".",
+              "slug": "/faq",
+              "permalink": "/docs/faq",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Deploy with Chinstrap",
+              "description": "Chinstrap, developed by ant4g0nist, uses python scripts to perform smart contract deployments and makes deployments easier and faster.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Deploy with Chinstrap",
+                "authors": "ant4g0nist"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "*Chinstrap* installation",
+                "permalink": "/docs/installation"
+              }
+            },
+            {
+              "unversionedId": "installation",
+              "id": "installation",
+              "title": "*Chinstrap* installation",
+              "description": "Requirements and dependencies",
+              "source": "@site/docs/installation.md",
+              "sourceDirName": ".",
+              "slug": "/installation",
+              "permalink": "/docs/installation",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/installation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy with Chinstrap",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Usage",
+                "permalink": "/docs/usage"
+              }
+            },
+            {
+              "unversionedId": "origination",
+              "id": "origination",
+              "title": "Originating smart contracts with *Chinstrap*",
+              "description": "At this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations.",
+              "source": "@site/docs/origination.md",
+              "sourceDirName": ".",
+              "slug": "/origination",
+              "permalink": "/docs/origination",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/origination.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sandbox",
+                "permalink": "/docs/sandbox"
+              },
+              "next": {
+                "title": "Conclusion",
+                "permalink": "/docs/conclusion"
+              }
+            },
+            {
+              "unversionedId": "sandbox",
+              "id": "sandbox",
+              "title": "Sandbox",
+              "description": "Chinstrap provides a sandbox sub-command to manage a local development node with flextesa sandbox. This enables development and testing smart contracts on test network, before we proceed with mainnet.",
+              "source": "@site/docs/sandbox.md",
+              "sourceDirName": ".",
+              "slug": "/sandbox",
+              "permalink": "/docs/sandbox",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sandbox.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Compiling smart contracts with *Chinstrap*",
+                "permalink": "/docs/compilation"
+              },
+              "next": {
+                "title": "Originating smart contracts with *Chinstrap*",
+                "permalink": "/docs/origination"
+              }
+            },
+            {
+              "unversionedId": "usage",
+              "id": "usage",
+              "title": "Usage",
+              "description": "You can get list of sub-commands supported by Chinstrap by running:",
+              "source": "@site/docs/usage.md",
+              "sourceDirName": ".",
+              "slug": "/usage",
+              "permalink": "/docs/usage",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/usage.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "*Chinstrap* installation",
+                "permalink": "/docs/installation"
+              },
+              "next": {
+                "title": "Compiling smart contracts with *Chinstrap*",
+                "permalink": "/docs/compilation"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "label": "👋 Introduction",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "label": "🎬 Installation",
+                "id": "installation"
+              },
+              {
+                "type": "doc",
+                "label": "📖 Usage",
+                "id": "usage"
+              },
+              {
+                "type": "doc",
+                "label": "⏳ Compilation",
+                "id": "compilation"
+              },
+              {
+                "type": "doc",
+                "label": "🍱 Sandbox",
+                "id": "sandbox"
+              },
+              {
+                "type": "doc",
+                "label": "🖥️ Origination",
+                "id": "origination"
+              },
+              {
+                "type": "doc",
+                "label": "🏁 Conclusion",
+                "id": "conclusion"
+              }
+            ]
+          },
+          "mainDocId": "index",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null,
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {}
+}
