@@ -1,69 +1,37 @@
 {
-    "private": true,
-    "name": "Textualize.io",
-    "engines": {
-        "node": "14.x"
-    },
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "build:prod": "npm run scripts:transpile && npm run scripts:generate-data-code-for-galleries && next build",
-        "start": "next start",
-        "prepare": "husky install",
-        "cypress:open": "cypress open",
-        "pre-commit": "lint-staged",
-        "lint": "next lint",
-        "types:check": "tsc --noEmit",
-        "format:check": "prettier --check .",
-        "format:fix": "prettier --write .",
-        "ci:check": "npm run lint && npm run format:check && npm run types:check",
-        "scripts:transpile": "rm -rf scripts-output/ && tsc -p ./tsconfig.scripts.json && echo '{\"type\": \"module\"}' > scripts-output/package.json ",
-        "scripts:check-gallery-images-dimensions": "node --es-module-specifier-resolution=node scripts-output/src/scripts/check-gallery-images-dimensions.js",
-        "scripts:generate-data-code-for-galleries": "node --es-module-specifier-resolution=node scripts-output/src/scripts/generate-data-code-for-galleries.js"
-    },
-    "dependencies": {
-        "@mdx-js/loader": "^2.1.1",
-        "@next/mdx": "^12.1.5",
-        "fast-glob": "^3.2.11",
-        "fathom-client": "^3.4.1",
-        "framer-motion": "^6.2.8",
-        "fscreen": "^1.2.0",
-        "gray-matter": "^4.0.3",
-        "humanize-plus": "^1.8.2",
-        "image-size": "^1.0.1",
-        "markdown-it": "^12.3.2",
-        "next": "^12.1.4",
-        "p-throttle": "^5.0.0",
-        "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "react-icons": "^4.3.1",
-        "react-intersection-observer": "^8.34.0"
-    },
-    "devDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
-        "@types/fscreen": "^1.0.1",
-        "@types/humanize-plus": "^1.8.0",
-        "@types/markdown-it": "^12.2.3",
-        "@types/node": "^17.0.23",
-        "@types/react": "^17.0.43",
-        "cypress": "^9.5.4",
-        "eslint": "8.13.0",
-        "eslint-config-next": "12.1.4",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-unused-imports": "^2.0.0",
-        "husky": "^7.0.4",
-        "lint-staged": "^12.3.8",
-        "prettier": "^2.6.2",
-        "sass": "^1.49.9",
-        "typescript": "^4.6.3"
-    },
-    "lint-staged": {
-        "*.{js,ts,jsx,tsx}": [
-            "prettier --write",
-            "eslint"
-        ],
-        "*.{json,mdx,yml}": [
-            "prettier --write"
-        ]
-    }
+  "name": "chinstrap",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.18",
+    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@mdx-js/react": "^1.6.22",
+    "clsx": "^1.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "asciinema-player": "^2.6.1"
+  }
 }

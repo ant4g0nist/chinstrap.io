@@ -1,19 +1,41 @@
-# Chinstrap.io
+# Website
 
-This is the code that powers https://chinstrap.io
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Start dev server for maintaining purpose
+### Installation
 
-You will need Node.js (version 14, as newer versions are not supported by our hosting platform at the moment) to run the site locally.  
-Using [nvm](https://github.com/nvm-sh/nvm#intro) is the recommended way to install such a version. Once it is installed, you can run the following commands:
+```
+$ yarn
+```
 
--   `nvm install 14 && nvm use 14` - installs Node.js v14
--   `npm i` - installs the Node.js dependencies
--   `npm run dev` - starts the local development server
+### Local Development
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the local website.
+```
+$ yarn start
+```
 
-## Tech stack
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-The UI is made with React and TypeScript, compiled to static web pages thanks to [Next.js](https://nextjs.org/),
-and hosted on [Vercel](https://vercel.com/).
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
