@@ -14,7 +14,7 @@ function HomepageHeader() {
         <img src='img/chinstrap.png' height='220' />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <h1 className="asubtitle"><a href='https://twitter.com/ant4g0nist/status/1498751543520153604' target='_blank'>Backed by Tezos Foundation Grant 🎉</a></h1>
+        <h1 className="asubtitle"><a href='https://twitter.com/ant4g0nist/status/1498751543520153604  ' target='_blank'>Backed by Tezos Foundation Grant 🎉</a></h1>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Chinstrap makes developers' lives easier by providing support for multiple contract compilations, tests, and origination on public and private Tezos networks. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
