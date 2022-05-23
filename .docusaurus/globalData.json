@@ -45,6 +45,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "testing",
+              "path": "/docs/testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "usage",
               "path": "/docs/usage",
               "sidebar": "tutorialSidebar"

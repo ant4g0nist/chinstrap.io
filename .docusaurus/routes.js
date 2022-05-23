@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e5d'),
+    component: ComponentCreator('/docs','d58'),
     routes: [
       {
         path: '/docs/',
@@ -85,6 +85,12 @@ export default [
       {
         path: '/docs/sandbox',
         component: ComponentCreator('/docs/sandbox','8a3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/testing',
+        component: ComponentCreator('/docs/testing','201'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -33,7 +33,7 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pageb-2-b-2a1"
   },
-  "/docs-e5d": {
+  "/docs-d58": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docsd-17-a29"
@@ -65,6 +65,10 @@
   "/docs/sandbox-8a3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-sandboxc-56-186"
+  },
+  "/docs/testing-201": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testingfbe-029"
   },
   "/docs/usage-eba": {
     "component": "component---theme-doc-item-178-a40",

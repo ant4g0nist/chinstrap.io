@@ -48,6 +48,11 @@ const sidebars = {
     },
     {
       type: 'doc',
+      label: '🧪 Testing',
+      id: 'testing',
+    },
+    {
+      type: 'doc',
       label: '🏁 Conclusion',
       id: 'conclusion',
     },

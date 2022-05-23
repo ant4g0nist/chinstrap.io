@@ -46,6 +46,12 @@
       },
       {
         "type": "link",
+        "label": "🧪 Testing",
+        "href": "/docs/testing",
+        "docId": "testing"
+      },
+      {
+        "type": "link",
         "label": "🏁 Conclusion",
         "href": "/docs/conclusion",
         "docId": "conclusion"
@@ -92,6 +98,12 @@
       "id": "sandbox",
       "title": "Sandbox",
       "description": "Chinstrap provides a sandbox sub-command to manage a local development node with flextesa sandbox. This enables development and testing smart contracts on test network, before we proceed with mainnet.",
+      "sidebar": "tutorialSidebar"
+    },
+    "testing": {
+      "id": "testing",
+      "title": "Testing",
+      "description": "Chinstrap supports testing smart contracts with SmartPy, pytest and Ligo. Contracts programmed in Ligo can also be tested with pytest.",
       "sidebar": "tutorialSidebar"
     },
     "usage": {
