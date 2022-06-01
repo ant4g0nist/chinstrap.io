@@ -56,8 +56,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Testing",
-                "permalink": "/docs/testing"
+                "title": "Chinstrap REPL",
+                "permalink": "/docs/repl"
               }
             },
             {
@@ -143,6 +143,29 @@
               }
             },
             {
+              "unversionedId": "repl",
+              "id": "repl",
+              "title": "Chinstrap REPL",
+              "description": "Chinstrap provides a develop sub-command that provides a repl to develop interactively. chinstrap develop launches a powerful repl, exposing Chinstrap's functionalitiy to the repl making the interaction with Tezos networks much easier.",
+              "source": "@site/docs/repl.md",
+              "sourceDirName": ".",
+              "slug": "/repl",
+              "permalink": "/docs/repl",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/repl.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Testing",
+                "permalink": "/docs/testing"
+              },
+              "next": {
+                "title": "Conclusion",
+                "permalink": "/docs/conclusion"
+              }
+            },
+            {
               "unversionedId": "sandbox",
               "id": "sandbox",
               "title": "Sandbox",
@@ -184,8 +207,8 @@
                 "permalink": "/docs/origination"
               },
               "next": {
-                "title": "Conclusion",
-                "permalink": "/docs/conclusion"
+                "title": "Chinstrap REPL",
+                "permalink": "/docs/repl"
               }
             },
             {
@@ -248,6 +271,11 @@
                 "type": "doc",
                 "label": "🧪 Testing",
                 "id": "testing"
+              },
+              {
+                "type": "doc",
+                "label": "🕹️ REPL",
+                "id": "repl"
               },
               {
                 "type": "doc",

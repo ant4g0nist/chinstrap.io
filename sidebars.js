@@ -53,6 +53,11 @@ const sidebars = {
     },
     {
       type: 'doc',
+      label: '🕹️ REPL',
+      id: 'repl',
+    },
+    {
+      type: 'doc',
       label: '🏁 Conclusion',
       id: 'conclusion',
     },

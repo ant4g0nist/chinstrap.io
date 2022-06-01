@@ -20,6 +20,7 @@ export default {
   'content---docs-faq-048-db5': [() => import(/* webpackChunkName: 'content---docs-faq-048-db5' */ '@site/docs/faq.md'), '@site/docs/faq.md', require.resolveWeak('@site/docs/faq.md')],
   'content---docs-installation-3-b-8-7c6': [() => import(/* webpackChunkName: 'content---docs-installation-3-b-8-7c6' */ '@site/docs/installation.md'), '@site/docs/installation.md', require.resolveWeak('@site/docs/installation.md')],
   'content---docs-originationf-79-8ca': [() => import(/* webpackChunkName: 'content---docs-originationf-79-8ca' */ '@site/docs/origination.md'), '@site/docs/origination.md', require.resolveWeak('@site/docs/origination.md')],
+  'content---docs-repl-529-81e': [() => import(/* webpackChunkName: 'content---docs-repl-529-81e' */ '@site/docs/repl.md'), '@site/docs/repl.md', require.resolveWeak('@site/docs/repl.md')],
   'content---docs-sandboxc-56-186': [() => import(/* webpackChunkName: 'content---docs-sandboxc-56-186' */ '@site/docs/sandbox.md'), '@site/docs/sandbox.md', require.resolveWeak('@site/docs/sandbox.md')],
   'content---docs-testingfbe-029': [() => import(/* webpackChunkName: 'content---docs-testingfbe-029' */ '@site/docs/testing.md'), '@site/docs/testing.md', require.resolveWeak('@site/docs/testing.md')],
   'content---docs-usage-647-a63': [() => import(/* webpackChunkName: 'content---docs-usage-647-a63' */ '@site/docs/usage.md'), '@site/docs/usage.md', require.resolveWeak('@site/docs/usage.md')],

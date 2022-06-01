@@ -52,6 +52,12 @@
       },
       {
         "type": "link",
+        "label": "🕹️ REPL",
+        "href": "/docs/repl",
+        "docId": "repl"
+      },
+      {
+        "type": "link",
         "label": "🏁 Conclusion",
         "href": "/docs/conclusion",
         "docId": "conclusion"
@@ -92,6 +98,12 @@
       "id": "origination",
       "title": "Originating smart contracts with *Chinstrap*",
       "description": "At this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "repl": {
+      "id": "repl",
+      "title": "Chinstrap REPL",
+      "description": "Chinstrap provides a develop sub-command that provides a repl to develop interactively. chinstrap develop launches a powerful repl, exposing Chinstrap's functionalitiy to the repl making the interaction with Tezos networks much easier.",
       "sidebar": "tutorialSidebar"
     },
     "sandbox": {

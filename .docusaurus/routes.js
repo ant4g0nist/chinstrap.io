@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d58'),
+    component: ComponentCreator('/docs','dcf'),
     routes: [
       {
         path: '/docs/',
@@ -79,6 +79,12 @@ export default [
       {
         path: '/docs/origination',
         component: ComponentCreator('/docs/origination','7f5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/repl',
+        component: ComponentCreator('/docs/repl','441'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

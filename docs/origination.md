@@ -5,7 +5,7 @@ At this point, the smart contracts are compiled and ready to be originated. We a
 
 ### Preparing origination scripts
 
-Originating a contract needs origination script. Origination script usually updates the storage structure or initial data and the smart contract code. These scripts are located in the *orignations* directory. This works almost the same as *Truffle*.
+Originating a contract needs origination script. Origination script usually updates the storage structure or initial data and the smart contract code. These scripts are located in the *orignations* directory. This works almost the same way as *Truffle*.
 
 Each origination is a _Python_ file, defining the deployment tasks, It executes Python code. Each origination starts with a number, followed by a title. *Chinstrap* will run the migrations in an ascending order.
 
