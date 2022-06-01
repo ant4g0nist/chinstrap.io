@@ -5,5 +5,5 @@ The first step in developing a Dapp is to deploy the smart contracts. _Chinstrap
 Thanks to its easy configuration and readable origination files, _Chinstrap_ is an essential tool throughout the development and deployment of a Dapp.
 
 :::info
-🐧 *Chinstrap* v0.1.0 is still under active development. Please reach out to [ant4g0nist](https://twitter.com/ant4g0nist) or join [Telegram](https://t.me/chinstrap_io) if you have any queries or advices. Happy hacking :)
+🐧 *Chinstrap* v1.0.1 is still under active development. Please reach out to [ant4g0nist](https://twitter.com/ant4g0nist) or join [Telegram](https://t.me/chinstrap_io) if you have any queries or advices. Happy hacking :)
 :::

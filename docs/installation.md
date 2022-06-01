@@ -14,9 +14,9 @@ Open a terminal and run:
 ➜ brew install libsodium libsecp256k1 gmp
 ```
 
-To install *Chinstrap* v0.1.0 from Github, open a terminal and run:
+To install *Chinstrap* v1.0.1 from Github, open a terminal and run:
 ```
-➜ git clone https://github.com/ant4g0nist/chinstrap/ -b v0.1.0
+➜ git clone https://github.com/ant4g0nist/chinstrap/ -b v1.0.1
 ➜ cd chinstrap
 ➜ pip3 install . -U
 ```
