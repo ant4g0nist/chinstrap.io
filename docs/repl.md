@@ -263,10 +263,17 @@ Now you can control sandbox from the repl using `sandbox()` method
 
 ```py
 chinstrap:> help(sandbox)
-startSandbox(initialize=False, port=20000, detach=True, num_of_accounts=10, minimum_balance=20000, protocol=<SandboxProtocols.hangzhou: 'Hangzhou'>, list_accounts=False, stop=False)
+sandbox(initialize=False, port=20000, detach=True, num_of_accounts=10, minimum_balance=20000, protocol=<SandboxProtocols.hangzhou: 'Hangzhou'>, list_accounts=False, stop=False)
 ```
 
 ![sandbox](/img/repl-sandbox.png)
+
+To generate more accounts in sandbox, we can use `_sandbox.generateAccounts` method
+```py
+_sandbox.generateAccounts(num_of_accounts=10)
+```
+
+![Sandbox Accounts](/img/repl-sandbox-accounts.png)
 
 ### stopSandbox
 You can halt the running local sandbox using this method.
