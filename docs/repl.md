@@ -36,6 +36,7 @@ CameLIGO
 ReasonLIGO
 PascaLIGO
 accounts
+sandbox
 stopSandbox
 originate
 install
@@ -256,6 +257,16 @@ chinstrap:> accounts()
 ```
 
 ![accounts](/img/repl-accounts.png)
+
+### sandbox
+Now you can control sandbox from the repl using `sandbox()` method
+
+```py
+chinstrap:> help(sandbox)
+startSandbox(initialize=False, port=20000, detach=True, num_of_accounts=10, minimum_balance=20000, protocol=<SandboxProtocols.hangzhou: 'Hangzhou'>, list_accounts=False, stop=False)
+```
+
+![sandbox](/img/repl-sandbox.png)
 
 ### stopSandbox
 You can halt the running local sandbox using this method.
