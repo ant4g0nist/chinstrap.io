@@ -1,4 +1,9 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "Chinstrap - Tezos smart contract development",
+      "permalink": "/blog/chinstrap-tezos-smart-contract-development"
+    }
+  ]
 }

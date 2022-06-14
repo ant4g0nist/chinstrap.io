@@ -7,16 +7,16 @@
           "versionLabel": "Next",
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs",
+          "versionEditUrlLocalized": "https://github.com/ant4g0nist/chinstrap.io/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/sidebars.js",
-          "contentPath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/docs",
-          "contentPathLocalized": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/sidebars.js",
+          "contentPath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/docs",
+          "contentPathLocalized": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "compilation",
@@ -27,7 +27,7 @@
               "sourceDirName": ".",
               "slug": "/compilation",
               "permalink": "/docs/compilation",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/compilation.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/compilation.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -50,7 +50,7 @@
               "sourceDirName": ".",
               "slug": "/conclusion",
               "permalink": "/docs/conclusion",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/conclusion.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/conclusion.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -69,7 +69,7 @@
               "sourceDirName": ".",
               "slug": "/faq",
               "permalink": "/docs/faq",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/faq.md",
               "tags": [],
               "version": "current",
               "frontMatter": {}
@@ -83,7 +83,7 @@
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -105,7 +105,7 @@
               "sourceDirName": ".",
               "slug": "/installation",
               "permalink": "/docs/installation",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/installation.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/installation.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -128,7 +128,7 @@
               "sourceDirName": ".",
               "slug": "/origination",
               "permalink": "/docs/origination",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/origination.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/origination.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -151,7 +151,7 @@
               "sourceDirName": ".",
               "slug": "/repl",
               "permalink": "/docs/repl",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/repl.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/repl.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -174,7 +174,7 @@
               "sourceDirName": ".",
               "slug": "/sandbox",
               "permalink": "/docs/sandbox",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sandbox.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/sandbox.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -197,7 +197,7 @@
               "sourceDirName": ".",
               "slug": "/testing",
               "permalink": "/docs/testing",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/testing.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -220,7 +220,7 @@
               "sourceDirName": ".",
               "slug": "/usage",
               "permalink": "/docs/usage",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/usage.md",
+              "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/docs/usage.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -293,11 +293,155 @@
   "docusaurus-plugin-content-blog": {
     "default": {
       "blogSidebarTitle": "Recent posts",
-      "blogPosts": [],
-      "blogListPaginated": [],
-      "blogTags": {},
-      "blogTagsListPath": null,
-      "blogTagsPaginated": []
+      "blogPosts": [
+        {
+          "id": "chinstrap-tezos-smart-contract-development",
+          "metadata": {
+            "permalink": "/blog/chinstrap-tezos-smart-contract-development",
+            "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/blog/Chinstrap - Tezos smart contract development.md",
+            "source": "@site/blog/Chinstrap - Tezos smart contract development.md",
+            "title": "Chinstrap - Tezos smart contract development",
+            "description": "How to create, test and deploy Tezos smart contracts?",
+            "date": "2022-06-14T11:18:30.002Z",
+            "formattedDate": "June 14, 2022",
+            "tags": [
+              {
+                "label": "chinstrap",
+                "permalink": "/blog/tags/chinstrap"
+              },
+              {
+                "label": "tezos",
+                "permalink": "/blog/tags/tezos"
+              },
+              {
+                "label": "smart-contracts",
+                "permalink": "/blog/tags/smart-contracts"
+              }
+            ],
+            "readingTime": 4.485,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "ant4g0nist",
+                "title": "Creator of Chinstrap",
+                "url": "https://github.com/ant4g0nist",
+                "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Chinstrap - Tezos smart contract development",
+              "description": "How to create, test and deploy Tezos smart contracts?",
+              "slug": "chinstrap-tezos-smart-contract-development",
+              "authors": [
+                {
+                  "name": "ant4g0nist",
+                  "title": "Creator of Chinstrap",
+                  "url": "https://github.com/ant4g0nist",
+                  "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                  "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+                }
+              ],
+              "tags": [
+                "chinstrap",
+                "tezos",
+                "smart-contracts"
+              ],
+              "image": "https://chinstrap.io/img/logo.png",
+              "hide_table_of_contents": false
+            }
+          },
+          "content": "## Chinstrap - Tezos smart contract development\n\nIn this blog, we will see how to create, test and deploy Tezos smart contracts using Chinstrap. \nLet's try to build a simple FA1.2 smart contract in SmartPy that has following functionalities:\n\n* mint: allows administrators to mint new tokens\n* burn: allows administrators to burn tokens\n* pause/unpause: allows administrators to pause or unpause the contract\n\nLets start by installing Chinstrap. I will use a macOS for this tutorial.\n\n### Install Chinstrap\n\nInstall dependecies on macOS:\n```sh\nbrew tap cuber/homebrew-libsecp256k1\nbrew install libsodium libsecp256k1 gmp\n```\n\nand on Ubuntu, Debian and other apt-based distributions:\n```sh\napt install libsodium-dev libsecp256k1-dev libgmp-dev pkg-config\n```\n\nTo install Chinstrap:\n```sh\npip3 install -U chinstrap\n```\n\n\n#### M1 (ARM)\nIn case `secp256k1` or `gmp` cannot find either include or lib paths, try explicitly set environment vars:\n\n```\nexport CFLAGS=\"-I`brew --prefix gmp`/include -I`brew --prefix libsecp256k1`/include\"\nexport LDFLAGS=\"-L`brew --prefix gmp`/lib -L`brew --prefix libsecp256k1`/lib\"\npip3 install . -U \n```\n\n### Install the compilers \nAfter isntalling Chinstrap, we have to install the `ligo`/`SmartPy` compilers. \n\n```sh\nchinstrap install\n```\n\n![chinstrap-install](/img/chinstrap-install.png)\n\n## Initializing a Chinstrap project\nChinstrap provides a sub-command to initialize a new Chinstrap project. Create an empty folder and initialize the project by running `chinstrap init`.\n\n```sh\nmkdir ChinToken\ncd ChinToken\nchinstrap init\n```\n\n![chinstrap-init](/img/chinstrap-init.png)\n\n## Configuring Chinstrap\n\nChinstrap configuration file is a yaml file, that tells chinstrap, which account and network to use for origination, which compiler to use for compilation and testing. A minimal configuration `chinstrap-config.yml` file for our `ChinToken` proejct looks like this:\n\n```\nchinstrap:\n  network:\n    development:\n      host: http://localhost:12345\n      accounts:\n        - privateKeyFile: ./.secret\n  compiler:\n    lang: smartpy\n    test: smartpy\n```\n\nWe create a file named .secret and paste the private key in the file. I am going to use a test private keys generated by `chinstrap sandbox` command which we will see how to use in the following sections.\n\n```sh\n➜ cat .secret\nedsk3AiSAERPfe6yqS7Q4YAxBQ5L1NLUao2H9sP34x7u1tEkXB5bwX\n```\n\n## Contract development\nWe can get the FA1.2 implementation from SmartPy by running the `chinstrap tempaltes` command and selecting `Token Contracts` using the arrows.\n\n```sh\n➜ chinstrap templates -h\n\n      _     _           _\n  ___| |__ (_)_ __  ___| |_ _ __ __ _ _ __\n / __| '_ \\| | '_ \\/ __| __| '__/ _` | '_ \\\n| (__| | | | | | | \\__ \\ |_| | | (_| | |_) |\n \\___|_| |_|_|_| |_|___/\\__|_|  \\__,_| .__/\n                                     |_|\n\n🐧 Chinstrap - a cute framework for developing Tezos Smart Contracts!\nusage: chinstrap templates [-h] -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}, --language {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n                        The type of the item to create\n```\n\n![chinstrap-template](/img/chinstrap-template.png)\n\nNow we are ready to compile the test 🕺💃\n\n\n## Restructure FA1.2 Contract\nWait, before we have one additional step before we area ready to start compiling and testing the contract. We move the `test` function defined in `contracts/FA1.2.py` to another file in `tests`. Let's call this test `FA1.2.test.py`\n\nOk, now we are ready to compile the test 🕺💃\n\n## Compile contract\n\nChinstrap provides a `compile` sub-command that picks the contracts from `contracts/` folder based on configured `compiler:lang` in the `chinstrap-config.yml` configuration file.\n\n```sh\nchinstrap compile\n```\n\n![chinstrap compile](/img/chinstrap-compile.png)\n\n## Test contract\n\nChinstrap provides a `test` sub-command that picks up the tests from the `tests/` folder based on the configured `compiler:test` in the configuration file.\n\n![chinstrap test](/img/chinstrap-test.png)\n\n## Originate contract\n\nAt this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations. \n\nFor a detailed explanation on how originations work with `Chinstrap`, please read the documentation available here: [Originating smart contracts with Chinstrap](https://chinstrap.io/docs/origination)\n\nOur origination for this FA1.2 looks like this:\n\n```py\nfrom chinstrap.originations import getContract\n\ndef deploy(chinstrapState, network, accounts):\n    contract = getContract(\"FA1_2\")\n\n    initial_storage = contract.storage.encode(\n        {\n            'administrator': accounts[0].key.public_key_hash(), \n            'balances': {}, \n            'metadata': {}, \n            'paused': False, \n            'token_metadata': {\n            }, \n            'totalSupply': 0\n        }\n    )\n    \n    return initial_storage, contract\n\n```\n\nLet's originate on our local flextesa sandbox. \nLet's initialise the sandbox before we start running it. We can initialise the sandbox by running\n```sh\nchinstrap sandbox -i\n```\n\nNow, we can start the sandbox by running\n```sh\nchinstrap sandbox -o 12345 -c 5 -p Ithaca\n```\n\n![chinstrap sandbox](/img/chinstrap-sandbox.png)\n\n\nWe can finally originate now. 🎉\n\n```sh\nchinstrap originate\n```\n\n![chinstrap originate](/img/chinstrap-originate.png)\n\n\n## Clean up\nOnce the development and testing is done, you can stop the sandbox by running:\n`chinstrap sandbox -s`\n\n\n## Conclusion\nOn origination, Chinstrap calculates and keeps track of the sha256 hash of the compiled contracts. This helps in preventing duplicate originations. If you want to re-originate the same contract, you can force chinstrap to do so using the -f` or --force flag.\n\nThe first step in developing a Dapp is to deploy the smart contracts. Chinstrap takes LIGO/SmartPy code and deploys it onto any public or private network. Each origination needs an initial storage that is compliant with the storage type of Michelson code.\n\nThanks to its easy configuration and readable origination files, Chinstrap is an essential tool throughout the development and deployment of a Dapp. \n\nIn our next post, we will try to leverage `Chinstrap`'s repl to do develop, test and originate and also interact with the same FA1.2 contract we deployed in this blog. Final setup for this post can be found in this repo: \n\nHappy Hacking 👾 🎉"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "chinstrap-tezos-smart-contract-development"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/chinstrap": {
+          "name": "chinstrap",
+          "items": [
+            "chinstrap-tezos-smart-contract-development"
+          ],
+          "permalink": "/blog/tags/chinstrap",
+          "pages": [
+            {
+              "items": [
+                "chinstrap-tezos-smart-contract-development"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/chinstrap",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/tezos": {
+          "name": "tezos",
+          "items": [
+            "chinstrap-tezos-smart-contract-development"
+          ],
+          "permalink": "/blog/tags/tezos",
+          "pages": [
+            {
+              "items": [
+                "chinstrap-tezos-smart-contract-development"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/tezos",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/smart-contracts": {
+          "name": "smart-contracts",
+          "items": [
+            "chinstrap-tezos-smart-contract-development"
+          ],
+          "permalink": "/blog/tags/smart-contracts",
+          "pages": [
+            {
+              "items": [
+                "chinstrap-tezos-smart-contract-development"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/smart-contracts",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {

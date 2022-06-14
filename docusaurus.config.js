@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ant4g0nist/chinstrap.io/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ant4g0nist/chinstrap.io/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -49,6 +49,16 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+          {
+            href: '/blog',
+            position: 'left',
+            label: 'Blog',
+          },
+          {
+            href: '/docs',
+            position: 'left',
+            label: 'Docs',
+          },
           {
               href: 'https://github.com/ant4g0nist/chinstrap',
               position: 'right',

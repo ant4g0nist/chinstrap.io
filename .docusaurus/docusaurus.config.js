@@ -18,15 +18,15 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/sidebars.js",
+          "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/"
         },
         "theme": {
-          "customCss": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/src/css/custom.css"
+          "customCss": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/src/css/custom.css"
         }
       }
     ]
@@ -39,6 +39,16 @@ export default {
         "src": "img/logo.png"
       },
       "items": [
+        {
+          "href": "/blog",
+          "position": "left",
+          "label": "Blog"
+        },
+        {
+          "href": "/docs",
+          "position": "left",
+          "label": "Docs"
+        },
         {
           "href": "https://github.com/ant4g0nist/chinstrap",
           "position": "right",
