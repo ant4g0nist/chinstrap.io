@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','e16'),
+    component: ComponentCreator('/blog','bb7'),
     exact: true
   },
   {
@@ -54,23 +54,33 @@ export default [
     exact: true
   },
   {
+    path: '/blog/chinstrap-tezos-smart-contract-development-repl',
+    component: ComponentCreator('/blog/chinstrap-tezos-smart-contract-development-repl','702'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','551'),
     exact: true
   },
   {
     path: '/blog/tags/chinstrap',
-    component: ComponentCreator('/blog/tags/chinstrap','631'),
+    component: ComponentCreator('/blog/tags/chinstrap','6c2'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/repl',
+    component: ComponentCreator('/blog/tags/repl','18b'),
     exact: true
   },
   {
     path: '/blog/tags/smart-contracts',
-    component: ComponentCreator('/blog/tags/smart-contracts','2e6'),
+    component: ComponentCreator('/blog/tags/smart-contracts','cf5'),
     exact: true
   },
   {
     path: '/blog/tags/tezos',
-    component: ComponentCreator('/blog/tags/tezos','0d2'),
+    component: ComponentCreator('/blog/tags/tezos','4db'),
     exact: true
   },
   {

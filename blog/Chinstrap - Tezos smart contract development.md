@@ -76,7 +76,7 @@ chinstrap init
 
 Chinstrap configuration file is a yaml file, that tells chinstrap, which account and network to use for origination, which compiler to use for compilation and testing. A minimal configuration `chinstrap-config.yml` file for our `ChinToken` proejct looks like this:
 
-```
+```yaml
 chinstrap:
   network:
     development:
@@ -208,7 +208,7 @@ The first step in developing a Dapp is to deploy the smart contracts. Chinstrap 
 
 Thanks to its easy configuration and readable origination files, Chinstrap is an essential tool throughout the development and deployment of a Dapp. 
 
-In our next post, we will try to leverage `Chinstrap`'s repl to do develop, test and originate and also interact with the same FA1.2 contract we deployed in this blog. Final setup for this post can be found in this repo: 
+In our next post, we will try to leverage `Chinstrap`'s repl to do develop, test and originate and also interact with the same FA1.2 contract we deployed in this blog. Final setup for this post can be found in this repo: [ant4g0nist/ChinToken](https://github.com/ant4g0nist/ChinToken)
 
 Happy Hacking 👾 🎉
 

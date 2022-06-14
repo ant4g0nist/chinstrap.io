@@ -295,6 +295,74 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "chinstrap-tezos-smart-contract-development-repl",
+          "metadata": {
+            "permalink": "/blog/chinstrap-tezos-smart-contract-development-repl",
+            "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/blog/Chinstrap - Tezos smart contract development using repl.md",
+            "source": "@site/blog/Chinstrap - Tezos smart contract development using repl.md",
+            "title": "Chinstrap - Tezos smart contract development using REPL",
+            "description": "How to create, test and deploy Tezos smart contracts?",
+            "date": "2022-06-14T13:55:04.811Z",
+            "formattedDate": "June 14, 2022",
+            "tags": [
+              {
+                "label": "chinstrap",
+                "permalink": "/blog/tags/chinstrap"
+              },
+              {
+                "label": "tezos",
+                "permalink": "/blog/tags/tezos"
+              },
+              {
+                "label": "smart-contracts",
+                "permalink": "/blog/tags/smart-contracts"
+              },
+              {
+                "label": "repl",
+                "permalink": "/blog/tags/repl"
+              }
+            ],
+            "readingTime": 2.595,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "ant4g0nist",
+                "title": "Creator of Chinstrap",
+                "url": "https://github.com/ant4g0nist",
+                "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Chinstrap - Tezos smart contract development using REPL",
+              "description": "How to create, test and deploy Tezos smart contracts?",
+              "slug": "chinstrap-tezos-smart-contract-development-repl",
+              "authors": [
+                {
+                  "name": "ant4g0nist",
+                  "title": "Creator of Chinstrap",
+                  "url": "https://github.com/ant4g0nist",
+                  "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                  "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+                }
+              ],
+              "tags": [
+                "chinstrap",
+                "tezos",
+                "smart-contracts",
+                "repl"
+              ],
+              "image": "https://chinstrap.io/img/logo.png",
+              "hide_table_of_contents": false
+            },
+            "nextItem": {
+              "title": "Chinstrap - Tezos smart contract development",
+              "permalink": "/blog/chinstrap-tezos-smart-contract-development"
+            }
+          },
+          "content": "## Chinstrap REPL - Tezos smart contract development\n\nIn our previous post, we have developed, tested and originated a FA1.2 contract to our Flextesa sandbox. In this post, we will do the same but instead of using `Chinstrap` cli, we will use `Chinstrap` REPL.\n\nPlease read the [Part-1](https://chinstrap.io/blog/chinstrap-tezos-smart-contract-development) of this 2 part series on how to use Chinstrap to create, test and deploy Tezos smart contracts.\n\n## Chinstrap REPL\n\nChinstrap's read–eval–print loop (REPL) is a simple interactive development environment that takes a single command/method call. executes them amd returns the result. Using repl makes it easy to interact with the deployed contracts on the chain.\n\n[![asciicast](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s.svg)](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s)\n\n\nChinstrap provides a `develop` sub-command that provides a repl to develop interactively. `chinstrap develop` launches a powerful repl, exposing Chinstrap's functionalitiy to the repl making the interaction with Tezos networks much easier.\n\n```sh\nchinstrap develop -h\n```\n\n![repl-deply](/img/repl-h.png)\n\n## Setup\nPlease clone the `ChinToken` repo from [ant4g0nist/ChinToken](https://github.com/ant4g0nist/ChinToken) if you don't already have the source.\n\n## Launching the REPL\n\nWhen we launch `Chinstrap`'s repl, we have an option to either start the Flextesa sandbox or directly connect to any configured network in `chinstrap-config.yml` file.\n\nThe following process remains the for all the networks.\n\n### Chinstrap REPL - Sandbox\nThe configuration for the local development should like:\n\n```yaml\nchinstrap:\n  network:\n    development:\n      host: http://localhost:12345\n      accounts:\n        - privateKeyFile: ./.secret\n  compiler:\n    lang: smartpy\n    test: smartpy\n```\n\nTo start a local sandbox on port 12345, and generate 5 test accounts and use Ithaca protocol, and launch the repl, run the following command:\n\n```sh\nchinstrap develop -p Ithaca -n development -o 12345 -c 5\n```\n![repl-launch](/img/repl-launch.png)\n\n### Chinstrap REPL - Compile\nChinstrap repl also has a *compile* function that compiles contracts inside `contracts` folder.\n\n```sh\nchinstrap:> compile()\n✔ FA1.2.py compilation successful!\nchinstrap:>\n```\n\n### Chinstrap REPL - Test\nChinstrap repl also has a *test* function that run tests inside `tests` folder.\n\n```py\nchinstrap:> test()\n✔ Tests passed on FA1.2.test.py\nchinstrap:>\n```\n![test](/img/repl-compile-test.png)\n\n### Chinstrap REPL - Origination\n*Chinstrap repl* provides *originate* method to originate contracts.\n\n![repl-originate](/img/repl-originatefa12.png)\n\nNow that we have originated the contract, things get a little more interesting. We can use the repl interface to interact with the contract.\n\n## Chinstrap REPL - Inspect contract\nChinstrap exposes `getContractFromAddress` function through which we can get the contract interface from an address.\n\n```sh\nchinstrap:> contract = getContractFromAddress('KT1MMvEKHoZ413FbF7CD5Y4MN5jDeLYg4r2S')\n```\n\nNow you can inspect and call the FA1.2 entrypoints on the `contract` object.\n\nFor example, to access the contract's storage:\n\n![repl-contract-storage](/img/repl-contract-storage.png)\n\nFor further reading on all the available methods in the REPL, please check [chinstrap/repl](https://chinstrap.io/docs/repl) and (Inspecting Tezos smart contracts with PyTezos library)[https://baking-bad.org/blog/2019/03/24/inspecting-tezos-smart-contracts-with-pytezos-library/]\n\n## Clean up\nStop the sandbox after the completion of testing.\n\n```sh\nchinstrap:> stopSandbox()\n```\nor\n\nRun this in after exiting the repl:\n\n```sh\nchinstrap sandbox -s\n```\n\n## Conclusion\n\nChinstrap's REPL is a nicer way to work with your contracts interactively for testing and compiling, or for executing transactions by hand. Chinstrap's integration with Sandbox and Pytezos makes it a cleaner and easier interface for the development on Tezos environment.\n\nJoin the telegram for furthur discussions: https://t.me/chinstrap_io\nFollow us on twitter for continous updates: https://twitter.com/chinstrap_io\n\n\nHappy Hacking 👾 🎉"
+        },
+        {
           "id": "chinstrap-tezos-smart-contract-development",
           "metadata": {
             "permalink": "/blog/chinstrap-tezos-smart-contract-development",
@@ -302,7 +370,7 @@
             "source": "@site/blog/Chinstrap - Tezos smart contract development.md",
             "title": "Chinstrap - Tezos smart contract development",
             "description": "How to create, test and deploy Tezos smart contracts?",
-            "date": "2022-06-14T11:18:30.002Z",
+            "date": "2022-06-14T13:53:23.000Z",
             "formattedDate": "June 14, 2022",
             "tags": [
               {
@@ -318,7 +386,7 @@
                 "permalink": "/blog/tags/smart-contracts"
               }
             ],
-            "readingTime": 4.485,
+            "readingTime": 4.49,
             "truncated": false,
             "authors": [
               {
@@ -349,14 +417,19 @@
               ],
               "image": "https://chinstrap.io/img/logo.png",
               "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Chinstrap - Tezos smart contract development using REPL",
+              "permalink": "/blog/chinstrap-tezos-smart-contract-development-repl"
             }
           },
-          "content": "## Chinstrap - Tezos smart contract development\n\nIn this blog, we will see how to create, test and deploy Tezos smart contracts using Chinstrap. \nLet's try to build a simple FA1.2 smart contract in SmartPy that has following functionalities:\n\n* mint: allows administrators to mint new tokens\n* burn: allows administrators to burn tokens\n* pause/unpause: allows administrators to pause or unpause the contract\n\nLets start by installing Chinstrap. I will use a macOS for this tutorial.\n\n### Install Chinstrap\n\nInstall dependecies on macOS:\n```sh\nbrew tap cuber/homebrew-libsecp256k1\nbrew install libsodium libsecp256k1 gmp\n```\n\nand on Ubuntu, Debian and other apt-based distributions:\n```sh\napt install libsodium-dev libsecp256k1-dev libgmp-dev pkg-config\n```\n\nTo install Chinstrap:\n```sh\npip3 install -U chinstrap\n```\n\n\n#### M1 (ARM)\nIn case `secp256k1` or `gmp` cannot find either include or lib paths, try explicitly set environment vars:\n\n```\nexport CFLAGS=\"-I`brew --prefix gmp`/include -I`brew --prefix libsecp256k1`/include\"\nexport LDFLAGS=\"-L`brew --prefix gmp`/lib -L`brew --prefix libsecp256k1`/lib\"\npip3 install . -U \n```\n\n### Install the compilers \nAfter isntalling Chinstrap, we have to install the `ligo`/`SmartPy` compilers. \n\n```sh\nchinstrap install\n```\n\n![chinstrap-install](/img/chinstrap-install.png)\n\n## Initializing a Chinstrap project\nChinstrap provides a sub-command to initialize a new Chinstrap project. Create an empty folder and initialize the project by running `chinstrap init`.\n\n```sh\nmkdir ChinToken\ncd ChinToken\nchinstrap init\n```\n\n![chinstrap-init](/img/chinstrap-init.png)\n\n## Configuring Chinstrap\n\nChinstrap configuration file is a yaml file, that tells chinstrap, which account and network to use for origination, which compiler to use for compilation and testing. A minimal configuration `chinstrap-config.yml` file for our `ChinToken` proejct looks like this:\n\n```\nchinstrap:\n  network:\n    development:\n      host: http://localhost:12345\n      accounts:\n        - privateKeyFile: ./.secret\n  compiler:\n    lang: smartpy\n    test: smartpy\n```\n\nWe create a file named .secret and paste the private key in the file. I am going to use a test private keys generated by `chinstrap sandbox` command which we will see how to use in the following sections.\n\n```sh\n➜ cat .secret\nedsk3AiSAERPfe6yqS7Q4YAxBQ5L1NLUao2H9sP34x7u1tEkXB5bwX\n```\n\n## Contract development\nWe can get the FA1.2 implementation from SmartPy by running the `chinstrap tempaltes` command and selecting `Token Contracts` using the arrows.\n\n```sh\n➜ chinstrap templates -h\n\n      _     _           _\n  ___| |__ (_)_ __  ___| |_ _ __ __ _ _ __\n / __| '_ \\| | '_ \\/ __| __| '__/ _` | '_ \\\n| (__| | | | | | | \\__ \\ |_| | | (_| | |_) |\n \\___|_| |_|_|_| |_|___/\\__|_|  \\__,_| .__/\n                                     |_|\n\n🐧 Chinstrap - a cute framework for developing Tezos Smart Contracts!\nusage: chinstrap templates [-h] -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}, --language {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n                        The type of the item to create\n```\n\n![chinstrap-template](/img/chinstrap-template.png)\n\nNow we are ready to compile the test 🕺💃\n\n\n## Restructure FA1.2 Contract\nWait, before we have one additional step before we area ready to start compiling and testing the contract. We move the `test` function defined in `contracts/FA1.2.py` to another file in `tests`. Let's call this test `FA1.2.test.py`\n\nOk, now we are ready to compile the test 🕺💃\n\n## Compile contract\n\nChinstrap provides a `compile` sub-command that picks the contracts from `contracts/` folder based on configured `compiler:lang` in the `chinstrap-config.yml` configuration file.\n\n```sh\nchinstrap compile\n```\n\n![chinstrap compile](/img/chinstrap-compile.png)\n\n## Test contract\n\nChinstrap provides a `test` sub-command that picks up the tests from the `tests/` folder based on the configured `compiler:test` in the configuration file.\n\n![chinstrap test](/img/chinstrap-test.png)\n\n## Originate contract\n\nAt this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations. \n\nFor a detailed explanation on how originations work with `Chinstrap`, please read the documentation available here: [Originating smart contracts with Chinstrap](https://chinstrap.io/docs/origination)\n\nOur origination for this FA1.2 looks like this:\n\n```py\nfrom chinstrap.originations import getContract\n\ndef deploy(chinstrapState, network, accounts):\n    contract = getContract(\"FA1_2\")\n\n    initial_storage = contract.storage.encode(\n        {\n            'administrator': accounts[0].key.public_key_hash(), \n            'balances': {}, \n            'metadata': {}, \n            'paused': False, \n            'token_metadata': {\n            }, \n            'totalSupply': 0\n        }\n    )\n    \n    return initial_storage, contract\n\n```\n\nLet's originate on our local flextesa sandbox. \nLet's initialise the sandbox before we start running it. We can initialise the sandbox by running\n```sh\nchinstrap sandbox -i\n```\n\nNow, we can start the sandbox by running\n```sh\nchinstrap sandbox -o 12345 -c 5 -p Ithaca\n```\n\n![chinstrap sandbox](/img/chinstrap-sandbox.png)\n\n\nWe can finally originate now. 🎉\n\n```sh\nchinstrap originate\n```\n\n![chinstrap originate](/img/chinstrap-originate.png)\n\n\n## Clean up\nOnce the development and testing is done, you can stop the sandbox by running:\n`chinstrap sandbox -s`\n\n\n## Conclusion\nOn origination, Chinstrap calculates and keeps track of the sha256 hash of the compiled contracts. This helps in preventing duplicate originations. If you want to re-originate the same contract, you can force chinstrap to do so using the -f` or --force flag.\n\nThe first step in developing a Dapp is to deploy the smart contracts. Chinstrap takes LIGO/SmartPy code and deploys it onto any public or private network. Each origination needs an initial storage that is compliant with the storage type of Michelson code.\n\nThanks to its easy configuration and readable origination files, Chinstrap is an essential tool throughout the development and deployment of a Dapp. \n\nIn our next post, we will try to leverage `Chinstrap`'s repl to do develop, test and originate and also interact with the same FA1.2 contract we deployed in this blog. Final setup for this post can be found in this repo: \n\nHappy Hacking 👾 🎉"
+          "content": "## Chinstrap - Tezos smart contract development\n\nIn this blog, we will see how to create, test and deploy Tezos smart contracts using Chinstrap. \nLet's try to build a simple FA1.2 smart contract in SmartPy that has following functionalities:\n\n* mint: allows administrators to mint new tokens\n* burn: allows administrators to burn tokens\n* pause/unpause: allows administrators to pause or unpause the contract\n\nLets start by installing Chinstrap. I will use a macOS for this tutorial.\n\n### Install Chinstrap\n\nInstall dependecies on macOS:\n```sh\nbrew tap cuber/homebrew-libsecp256k1\nbrew install libsodium libsecp256k1 gmp\n```\n\nand on Ubuntu, Debian and other apt-based distributions:\n```sh\napt install libsodium-dev libsecp256k1-dev libgmp-dev pkg-config\n```\n\nTo install Chinstrap:\n```sh\npip3 install -U chinstrap\n```\n\n\n#### M1 (ARM)\nIn case `secp256k1` or `gmp` cannot find either include or lib paths, try explicitly set environment vars:\n\n```\nexport CFLAGS=\"-I`brew --prefix gmp`/include -I`brew --prefix libsecp256k1`/include\"\nexport LDFLAGS=\"-L`brew --prefix gmp`/lib -L`brew --prefix libsecp256k1`/lib\"\npip3 install . -U \n```\n\n### Install the compilers \nAfter isntalling Chinstrap, we have to install the `ligo`/`SmartPy` compilers. \n\n```sh\nchinstrap install\n```\n\n![chinstrap-install](/img/chinstrap-install.png)\n\n## Initializing a Chinstrap project\nChinstrap provides a sub-command to initialize a new Chinstrap project. Create an empty folder and initialize the project by running `chinstrap init`.\n\n```sh\nmkdir ChinToken\ncd ChinToken\nchinstrap init\n```\n\n![chinstrap-init](/img/chinstrap-init.png)\n\n## Configuring Chinstrap\n\nChinstrap configuration file is a yaml file, that tells chinstrap, which account and network to use for origination, which compiler to use for compilation and testing. A minimal configuration `chinstrap-config.yml` file for our `ChinToken` proejct looks like this:\n\n```yaml\nchinstrap:\n  network:\n    development:\n      host: http://localhost:12345\n      accounts:\n        - privateKeyFile: ./.secret\n  compiler:\n    lang: smartpy\n    test: smartpy\n```\n\nWe create a file named .secret and paste the private key in the file. I am going to use a test private keys generated by `chinstrap sandbox` command which we will see how to use in the following sections.\n\n```sh\n➜ cat .secret\nedsk3AiSAERPfe6yqS7Q4YAxBQ5L1NLUao2H9sP34x7u1tEkXB5bwX\n```\n\n## Contract development\nWe can get the FA1.2 implementation from SmartPy by running the `chinstrap tempaltes` command and selecting `Token Contracts` using the arrows.\n\n```sh\n➜ chinstrap templates -h\n\n      _     _           _\n  ___| |__ (_)_ __  ___| |_ _ __ __ _ _ __\n / __| '_ \\| | '_ \\/ __| __| '__/ _` | '_ \\\n| (__| | | | | | | \\__ \\ |_| | | (_| | |_) |\n \\___|_| |_|_|_| |_|___/\\__|_|  \\__,_| .__/\n                                     |_|\n\n🐧 Chinstrap - a cute framework for developing Tezos Smart Contracts!\nusage: chinstrap templates [-h] -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -l {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}, --language {JsLIGO,PascaLIGO,CameLIGO,ReasonLIGO,SmartPy}\n                        The type of the item to create\n```\n\n![chinstrap-template](/img/chinstrap-template.png)\n\nNow we are ready to compile the test 🕺💃\n\n\n## Restructure FA1.2 Contract\nWait, before we have one additional step before we area ready to start compiling and testing the contract. We move the `test` function defined in `contracts/FA1.2.py` to another file in `tests`. Let's call this test `FA1.2.test.py`\n\nOk, now we are ready to compile the test 🕺💃\n\n## Compile contract\n\nChinstrap provides a `compile` sub-command that picks the contracts from `contracts/` folder based on configured `compiler:lang` in the `chinstrap-config.yml` configuration file.\n\n```sh\nchinstrap compile\n```\n\n![chinstrap compile](/img/chinstrap-compile.png)\n\n## Test contract\n\nChinstrap provides a `test` sub-command that picks up the tests from the `tests/` folder based on the configured `compiler:test` in the configuration file.\n\n![chinstrap test](/img/chinstrap-test.png)\n\n## Originate contract\n\nAt this point, the smart contracts are compiled and ready to be originated. We are ready to originate or deploy our smart contracts on to the configured network. We will make use of Flextesa sandbox as a local node, to test our originations. \n\nFor a detailed explanation on how originations work with `Chinstrap`, please read the documentation available here: [Originating smart contracts with Chinstrap](https://chinstrap.io/docs/origination)\n\nOur origination for this FA1.2 looks like this:\n\n```py\nfrom chinstrap.originations import getContract\n\ndef deploy(chinstrapState, network, accounts):\n    contract = getContract(\"FA1_2\")\n\n    initial_storage = contract.storage.encode(\n        {\n            'administrator': accounts[0].key.public_key_hash(), \n            'balances': {}, \n            'metadata': {}, \n            'paused': False, \n            'token_metadata': {\n            }, \n            'totalSupply': 0\n        }\n    )\n    \n    return initial_storage, contract\n\n```\n\nLet's originate on our local flextesa sandbox. \nLet's initialise the sandbox before we start running it. We can initialise the sandbox by running\n```sh\nchinstrap sandbox -i\n```\n\nNow, we can start the sandbox by running\n```sh\nchinstrap sandbox -o 12345 -c 5 -p Ithaca\n```\n\n![chinstrap sandbox](/img/chinstrap-sandbox.png)\n\n\nWe can finally originate now. 🎉\n\n```sh\nchinstrap originate\n```\n\n![chinstrap originate](/img/chinstrap-originate.png)\n\n\n## Clean up\nOnce the development and testing is done, you can stop the sandbox by running:\n`chinstrap sandbox -s`\n\n\n## Conclusion\nOn origination, Chinstrap calculates and keeps track of the sha256 hash of the compiled contracts. This helps in preventing duplicate originations. If you want to re-originate the same contract, you can force chinstrap to do so using the -f` or --force flag.\n\nThe first step in developing a Dapp is to deploy the smart contracts. Chinstrap takes LIGO/SmartPy code and deploys it onto any public or private network. Each origination needs an initial storage that is compliant with the storage type of Michelson code.\n\nThanks to its easy configuration and readable origination files, Chinstrap is an essential tool throughout the development and deployment of a Dapp. \n\nIn our next post, we will try to leverage `Chinstrap`'s repl to do develop, test and originate and also interact with the same FA1.2 contract we deployed in this blog. Final setup for this post can be found in this repo: [ant4g0nist/ChinToken](https://github.com/ant4g0nist/ChinToken)\n\nHappy Hacking 👾 🎉"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
+            "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
           "metadata": {
@@ -364,7 +437,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 1,
+            "totalCount": 2,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -374,12 +447,14 @@
         "/blog/tags/chinstrap": {
           "name": "chinstrap",
           "items": [
+            "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
           "permalink": "/blog/tags/chinstrap",
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
               "metadata": {
@@ -387,7 +462,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -397,12 +472,14 @@
         "/blog/tags/tezos": {
           "name": "tezos",
           "items": [
+            "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
           "permalink": "/blog/tags/tezos",
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
               "metadata": {
@@ -410,7 +487,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -420,16 +497,41 @@
         "/blog/tags/smart-contracts": {
           "name": "smart-contracts",
           "items": [
+            "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
           "permalink": "/blog/tags/smart-contracts",
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
               "metadata": {
                 "permalink": "/blog/tags/smart-contracts",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/repl": {
+          "name": "repl",
+          "items": [
+            "chinstrap-tezos-smart-contract-development-repl"
+          ],
+          "permalink": "/blog/tags/repl",
+          "pages": [
+            {
+              "items": [
+                "chinstrap-tezos-smart-contract-development-repl"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/repl",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,

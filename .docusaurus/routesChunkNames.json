@@ -28,10 +28,13 @@
     "component": "component---theme-debug-routes-946-699",
     "__routeContextModule": "__routeContextModule---docusaurus-debugb-48-487"
   },
-  "/blog-e16": {
+  "/blog-bb7": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogeac-03e"
+      },
       {
         "content": "content---blogcaa-b72"
       }
@@ -50,16 +53,25 @@
     "content": "content---blog-chinstrap-tezos-smart-contract-development-3-e-4-46e",
     "__routeContextModule": "__routeContextModule---blog-831-5ca"
   },
+  "/blog/chinstrap-tezos-smart-contract-development-repl-702": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-chinstrap-tezos-smart-contract-development-using-repl-5-fc-75c",
+    "__routeContextModule": "__routeContextModule---blog-831-5ca"
+  },
   "/blog/tags-551": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2",
     "__routeContextModule": "__routeContextModule---blog-831-5ca"
   },
-  "/blog/tags/chinstrap-631": {
+  "/blog/tags/chinstrap-6c2": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogeac-03e"
+      },
       {
         "content": "content---blogcaa-b72"
       }
@@ -68,10 +80,25 @@
     "listMetadata": "listMetadata---blog-tags-chinstrap-66-d-d41",
     "__routeContextModule": "__routeContextModule---blog-831-5ca"
   },
-  "/blog/tags/smart-contracts-2e6": {
+  "/blog/tags/repl-18b": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogeac-03e"
+      }
+    ],
+    "metadata": "metadata---blog-tags-repl-5-d-8-66f",
+    "listMetadata": "listMetadata---blog-tags-repl-665-b84",
+    "__routeContextModule": "__routeContextModule---blog-831-5ca"
+  },
+  "/blog/tags/smart-contracts-cf5": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogeac-03e"
+      },
       {
         "content": "content---blogcaa-b72"
       }
@@ -80,10 +107,13 @@
     "listMetadata": "listMetadata---blog-tags-smart-contracts-6-f-7-b59",
     "__routeContextModule": "__routeContextModule---blog-831-5ca"
   },
-  "/blog/tags/tezos-0d2": {
+  "/blog/tags/tezos-4db": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogeac-03e"
+      },
       {
         "content": "content---blogcaa-b72"
       }
