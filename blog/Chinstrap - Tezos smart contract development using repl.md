@@ -12,20 +12,20 @@ image: https://chinstrap.io/img/logo.png
 hide_table_of_contents: false
 ---
 
-## Chinstrap REPL - Tezos smart contract development
+## Intro
 
-In our previous post, we have developed, tested and originated a FA1.2 contract to our Flextesa sandbox. In this post, we will do the same but instead of using `Chinstrap` cli, we will use `Chinstrap` REPL.
+We developed, tested, and originated a FA1.2 contract to our Flextesa sandbox in our previous post. In this post, we will do the same, but instead of using `Chinstrap` cli, we will use `Chinstrap` REPL.
 
-Please read the [Part-1](https://chinstrap.io/blog/chinstrap-tezos-smart-contract-development) of this 2 part series on how to use Chinstrap to create, test and deploy Tezos smart contracts.
+Please read the [Part-1](https://chinstrap.io/blog/chinstrap-tezos-smart-contract-development) of this 2-part series on how to use Chinstrap to create, test and deploy Tezos smart contracts.
 
 ## Chinstrap REPL
 
-Chinstrap's read–eval–print loop (REPL) is a simple interactive development environment that takes a single command/method call. executes them amd returns the result. Using repl makes it easy to interact with the deployed contracts on the chain.
+Chinstrap's read–eval–print loop (REPL) is a simple interactive development environment that takes a single command/method call, executes them, and returns the result. Using repl makes interacting with the deployed contracts on the chain easy.
 
 [![asciicast](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s.svg)](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s)
 
 
-Chinstrap provides a `develop` sub-command that provides a repl to develop interactively. `chinstrap develop` launches a powerful repl, exposing Chinstrap's functionalitiy to the repl making the interaction with Tezos networks much easier.
+Chinstrap provides a `develop` sub-command that provides a repl to develop interactively. `chinstrap develop` launches a powerful repl, exposing Chinstrap's functionality to the repl, making the interaction with Tezos networks much more effortless.
 
 ```sh
 chinstrap develop -h
@@ -34,13 +34,13 @@ chinstrap develop -h
 ![repl-deply](/img/repl-h.png)
 
 ## Setup
-Please clone the `ChinToken` repo from [ant4g0nist/ChinToken](https://github.com/ant4g0nist/ChinToken) if you don't already have the source.
+Please clone the `ChinToken` repo from [ant4g0nist/ChinToken](https://github.com/ant4g0nist/ChinToken).
 
 ## Launching the REPL
 
-When we launch `Chinstrap`'s repl, we have an option to either start the Flextesa sandbox or directly connect to any configured network in `chinstrap-config.yml` file.
+When we launch `Chinstrap`'s repl, we can either start the Flextesa sandbox or directly connect to any configured network in `chinstrap-config.yml` file.
 
-The following process remains the for all the networks.
+The following process remains for all the networks.
 
 ### Chinstrap REPL - Sandbox
 The configuration for the local development should like:
@@ -57,7 +57,7 @@ chinstrap:
     test: smartpy
 ```
 
-To start a local sandbox on port 12345, and generate 5 test accounts and use Ithaca protocol, and launch the repl, run the following command:
+To start a local sandbox on port 12345, generate 5 test accounts and use Ithaca protocol, and launch the repl, run the following command:
 
 ```sh
 chinstrap develop -p Ithaca -n development -o 12345 -c 5
@@ -74,7 +74,7 @@ chinstrap:>
 ```
 
 ### Chinstrap REPL - Test
-Chinstrap repl also has a *test* function that run tests inside `tests` folder.
+Chinstrap repl also has a *test* function that runs tests inside the `tests` folder.
 
 ```py
 chinstrap:> test()
@@ -121,10 +121,10 @@ chinstrap sandbox -s
 
 ## Conclusion
 
-Chinstrap's REPL is a nicer way to work with your contracts interactively for testing and compiling, or for executing transactions by hand. Chinstrap's integration with Sandbox and Pytezos makes it a cleaner and easier interface for the development on Tezos environment.
+Chinstrap's REPL is a more excellent way to interactively work with your contracts for testing and compiling or executing transactions by hand. Chinstrap's integration with Sandbox and Pytezos makes it a cleaner and more accessible interface for developing in the Tezos environment.
 
-Join the telegram for furthur discussions: https://t.me/chinstrap_io
-Follow us on twitter for continous updates: https://twitter.com/chinstrap_io
+Join the telegram for further discussions: https://t.me/chinstrap_io
+Follow us on Twitter for continuous updates: https://twitter.com/chinstrap_io
 
 
 Happy Hacking 👾 🎉
