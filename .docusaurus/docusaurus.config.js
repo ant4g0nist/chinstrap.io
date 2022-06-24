@@ -18,7 +18,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/sidebars.js",
+          "sidebarPath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/sidebars.js",
           "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/"
         },
         "blog": {
@@ -26,7 +26,7 @@ export default {
           "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/"
         },
         "theme": {
-          "customCss": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/src/css/custom.css"
+          "customCss": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/src/css/custom.css"
         }
       }
     ]

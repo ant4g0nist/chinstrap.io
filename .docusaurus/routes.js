@@ -5,92 +5,92 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','be6'),
+    component: ComponentCreator('/__docusaurus/debug','686'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','d60'),
+    component: ComponentCreator('/__docusaurus/debug/config','cc3'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','197'),
+    component: ComponentCreator('/__docusaurus/debug/content','613'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','131'),
+    component: ComponentCreator('/__docusaurus/debug/globalData','ac5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','2a6'),
+    component: ComponentCreator('/__docusaurus/debug/metadata','a7c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','83b'),
+    component: ComponentCreator('/__docusaurus/debug/registry','408'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','ec9'),
+    component: ComponentCreator('/__docusaurus/debug/routes','e36'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','274'),
+    component: ComponentCreator('/blog','bb7'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive','c44'),
+    component: ComponentCreator('/blog/archive','b4d'),
     exact: true
   },
   {
     path: '/blog/chinstrap-tezos-smart-contract-development',
-    component: ComponentCreator('/blog/chinstrap-tezos-smart-contract-development','2da'),
+    component: ComponentCreator('/blog/chinstrap-tezos-smart-contract-development','7d8'),
     exact: true
   },
   {
     path: '/blog/chinstrap-tezos-smart-contract-development-repl',
-    component: ComponentCreator('/blog/chinstrap-tezos-smart-contract-development-repl','528'),
+    component: ComponentCreator('/blog/chinstrap-tezos-smart-contract-development-repl','702'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags','532'),
+    component: ComponentCreator('/blog/tags','551'),
     exact: true
   },
   {
     path: '/blog/tags/chinstrap',
-    component: ComponentCreator('/blog/tags/chinstrap','692'),
+    component: ComponentCreator('/blog/tags/chinstrap','6c2'),
     exact: true
   },
   {
     path: '/blog/tags/repl',
-    component: ComponentCreator('/blog/tags/repl','905'),
+    component: ComponentCreator('/blog/tags/repl','18b'),
     exact: true
   },
   {
     path: '/blog/tags/smart-contracts',
-    component: ComponentCreator('/blog/tags/smart-contracts','2c8'),
+    component: ComponentCreator('/blog/tags/smart-contracts','cf5'),
     exact: true
   },
   {
     path: '/blog/tags/tezos',
-    component: ComponentCreator('/blog/tags/tezos','a71'),
+    component: ComponentCreator('/blog/tags/tezos','4db'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','ea1'),
+    component: ComponentCreator('/markdown-page','5b3'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','dcf'),
+    component: ComponentCreator('/docs','75e'),
     routes: [
       {
         path: '/docs/',
@@ -155,7 +155,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','5e9'),
+    component: ComponentCreator('/','9b7'),
     exact: true
   },
   {

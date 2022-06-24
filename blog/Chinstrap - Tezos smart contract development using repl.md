@@ -22,9 +22,6 @@ Please read the [Part-1](https://chinstrap.io/blog/chinstrap-tezos-smart-contrac
 
 Chinstrap's read–eval–print loop (REPL) is a simple interactive development environment that takes a single command/method call, executes them, and returns the result. Using repl makes interacting with the deployed contracts on the chain easy.
 
-[![asciicast](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s.svg)](https://asciinema.org/a/OpybONHPCiyDUU5vv3NdMMG5s)
-
-
 Chinstrap provides a `develop` sub-command that provides a repl to develop interactively. `chinstrap develop` launches a powerful repl, exposing Chinstrap's functionality to the repl, making the interaction with Tezos networks much more effortless.
 
 ```sh
@@ -49,7 +46,7 @@ The configuration for the local development should like:
 chinstrap:
   network:
     development:
-      host: http://localhost:12345
+      host: http://localhost:20000
       accounts:
         - privateKeyFile: ./.secret
   compiler:
@@ -57,10 +54,10 @@ chinstrap:
     test: smartpy
 ```
 
-To start a local sandbox on port 12345, generate 5 test accounts and use Ithaca protocol, and launch the repl, run the following command:
+To start a local sandbox on port 20000, generate 5 test accounts and use Ithaca protocol, and launch the repl, run the following command:
 
 ```sh
-chinstrap develop -p Ithaca -n development -o 12345 -c 5
+chinstrap develop -p Ithaca -n development -o 20000 -c 5
 ```
 ![repl-launch](/img/repl-launch.png)
 
