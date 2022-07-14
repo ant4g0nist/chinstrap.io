@@ -14,9 +14,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/sidebars.js",
-          "contentPath": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/docs",
-          "contentPathLocalized": "/Users/ant4g0nist/Desktop/Blockchain/Tezos/Development/Chinstrap/chinstrap.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/sidebars.js",
+          "contentPath": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/docs",
+          "contentPathLocalized": "/Users/ant4g0nist/Desktop/Tezos/chinstrap.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "compilation",
@@ -295,6 +295,74 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "chinstrap-tezos-tezasia-workshop",
+          "metadata": {
+            "permalink": "/blog/chinstrap-tezos-tezasia-workshop",
+            "editUrl": "https://github.com/ant4g0nist/chinstrap.io/blob/main/blog/chinstrap tezasia 2022-07-14.md",
+            "source": "@site/blog/chinstrap tezasia 2022-07-14.md",
+            "title": "Chinstrap Workshop at TezAsia Hackathon",
+            "description": "Tezos development with Chinstrap - building, testing and deploying Tezos smart contracts",
+            "date": "2022-07-14T00:00:00.000Z",
+            "formattedDate": "July 14, 2022",
+            "tags": [
+              {
+                "label": "chinstrap",
+                "permalink": "/blog/tags/chinstrap"
+              },
+              {
+                "label": "tezos",
+                "permalink": "/blog/tags/tezos"
+              },
+              {
+                "label": "smart-contracts",
+                "permalink": "/blog/tags/smart-contracts"
+              },
+              {
+                "label": "repl",
+                "permalink": "/blog/tags/repl"
+              }
+            ],
+            "readingTime": 0.055,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "ant4g0nist",
+                "title": "Creator of Chinstrap",
+                "url": "https://github.com/ant4g0nist",
+                "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+              }
+            ],
+            "frontMatter": {
+              "title": "Chinstrap Workshop at TezAsia Hackathon",
+              "description": "Tezos development with Chinstrap - building, testing and deploying Tezos smart contracts",
+              "slug": "chinstrap-tezos-tezasia-workshop",
+              "authors": [
+                {
+                  "name": "ant4g0nist",
+                  "title": "Creator of Chinstrap",
+                  "url": "https://github.com/ant4g0nist",
+                  "image_url": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg",
+                  "imageURL": "https://pbs.twimg.com/profile_images/1536453566566748161/RTjM3OCI_400x400.jpg"
+                }
+              ],
+              "tags": [
+                "chinstrap",
+                "tezos",
+                "smart-contracts",
+                "repl"
+              ],
+              "image": "https://chinstrap.io/img/logo.png",
+              "hide_table_of_contents": false
+            },
+            "nextItem": {
+              "title": "Chinstrap - Tezos smart contract development using REPL",
+              "permalink": "/blog/chinstrap-tezos-smart-contract-development-repl"
+            }
+          },
+          "content": "Slides are available here:\n\n[Tezos development with Chinstrap](/img/Chinstrap-TezAsia-Hackathon.pdf)\n\n<img src=\"/img/tezasia.jpeg\" width=\"500\"/>"
+        },
+        {
           "id": "chinstrap-tezos-smart-contract-development-repl",
           "metadata": {
             "permalink": "/blog/chinstrap-tezos-smart-contract-development-repl",
@@ -354,6 +422,10 @@
               ],
               "image": "https://chinstrap.io/img/logo.png",
               "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Chinstrap Workshop at TezAsia Hackathon",
+              "permalink": "/blog/chinstrap-tezos-tezasia-workshop"
             },
             "nextItem": {
               "title": "Chinstrap - Tezos smart contract development",
@@ -429,6 +501,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "chinstrap-tezos-tezasia-workshop",
             "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
@@ -437,7 +510,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 2,
+            "totalCount": 3,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -447,6 +520,7 @@
         "/blog/tags/chinstrap": {
           "name": "chinstrap",
           "items": [
+            "chinstrap-tezos-tezasia-workshop",
             "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
@@ -454,6 +528,7 @@
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-tezasia-workshop",
                 "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
@@ -462,7 +537,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 2,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -472,6 +547,7 @@
         "/blog/tags/tezos": {
           "name": "tezos",
           "items": [
+            "chinstrap-tezos-tezasia-workshop",
             "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
@@ -479,6 +555,7 @@
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-tezasia-workshop",
                 "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
@@ -487,7 +564,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 2,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -497,6 +574,7 @@
         "/blog/tags/smart-contracts": {
           "name": "smart-contracts",
           "items": [
+            "chinstrap-tezos-tezasia-workshop",
             "chinstrap-tezos-smart-contract-development-repl",
             "chinstrap-tezos-smart-contract-development"
           ],
@@ -504,6 +582,7 @@
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-tezasia-workshop",
                 "chinstrap-tezos-smart-contract-development-repl",
                 "chinstrap-tezos-smart-contract-development"
               ],
@@ -512,7 +591,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 2,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -522,12 +601,14 @@
         "/blog/tags/repl": {
           "name": "repl",
           "items": [
+            "chinstrap-tezos-tezasia-workshop",
             "chinstrap-tezos-smart-contract-development-repl"
           ],
           "permalink": "/blog/tags/repl",
           "pages": [
             {
               "items": [
+                "chinstrap-tezos-tezasia-workshop",
                 "chinstrap-tezos-smart-contract-development-repl"
               ],
               "metadata": {
@@ -535,7 +616,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
