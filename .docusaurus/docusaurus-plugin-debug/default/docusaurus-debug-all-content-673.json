@@ -322,7 +322,7 @@
                 "permalink": "/blog/tags/repl"
               }
             ],
-            "readingTime": 0.055,
+            "readingTime": 0.105,
             "truncated": false,
             "authors": [
               {
@@ -360,7 +360,7 @@
               "permalink": "/blog/chinstrap-tezos-smart-contract-development-repl"
             }
           },
-          "content": "Slides are available here:\n\n[Tezos development with Chinstrap](/img/Chinstrap-TezAsia-Hackathon.pdf)\n\n<img src=\"/img/tezasia.jpeg\" width=\"500\"/>"
+          "content": "Slides are available here:\n\n[Tezos development with Chinstrap](/img/Chinstrap-TezAsia-Hackathon.pdf)\n\n<img src=\"/img/tezasia.jpeg\" width=\"500\"/>\n\n* Docs 📖   : https://chinstrap.io/docs\n* Tele 💬   : https://t.me/chinstrap_io"
         },
         {
           "id": "chinstrap-tezos-smart-contract-development-repl",

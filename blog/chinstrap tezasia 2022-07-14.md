@@ -17,3 +17,6 @@ Slides are available here:
 [Tezos development with Chinstrap](/img/Chinstrap-TezAsia-Hackathon.pdf)
 
 <img src="/img/tezasia.jpeg" width="500"/>
+
+* Docs 📖   : https://chinstrap.io/docs
+* Tele 💬   : https://t.me/chinstrap_io
