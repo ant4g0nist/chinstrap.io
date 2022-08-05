@@ -198,7 +198,7 @@ chinstrap sandbox -i
 Now, we can start the sandbox in synchronous mode by running
 
 ```sh
-chinstrap sandbox -o 20000 -c 5 -p Ithaca
+chinstrap sandbox -o 20000 -c 5 -p Jakarta
 ```
 
 If you would like to run sandbox in the background or detached mode, you can pass `-d` or `--detach` flag when starting the sandbox

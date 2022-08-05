@@ -13,7 +13,7 @@
 
 🐧 Chinstrap - a cute framework for developing Tezos Smart Contracts!
 usage: chinstrap sandbox [-h] [-o PORT] [-i] [-d] [-s] [-c NUM_OF_ACCOUNTS] [-m MINIMUM_BALANCE]
-                         [-p {Hangzhou,Ithaca,Alpha}] [-l]
+                         [-p {Hangzhou,Jakarta,Alpha}] [-l]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -25,14 +25,14 @@ optional arguments:
                         Number of accounts to bootstrap on Tezos sandbox
   -m MINIMUM_BALANCE, --minimum-balance MINIMUM_BALANCE
                         Amount of Tezos to deposit while bootstraping on Tezos local sandbox
-  -p {Hangzhou,Ithaca,Alpha}, --protocol {Hangzhou,Ithaca,Alpha}
+  -p {Hangzhou,Jakarta,Alpha}, --protocol {Hangzhou,Jakarta,Alpha}
                         Protocol to start Tezos sandbox with.
   -l, --list-accounts   List local accounts from sandbox
 ```
 
-To start a local sandbox on port 12345, and generate 5 test accounts and use Ithaca protocol, run the following command:
+To start a local sandbox on port 12345, and generate 5 test accounts and use Jakarta protocol, run the following command:
 ```
-➜ chinstrap sandbox -p Ithaca -o 12345 -c 5
+➜ chinstrap sandbox -p Jakarta -o 12345 -c 5
       _     _           _
   ___| |__ (_)_ __  ___| |_ _ __ __ _ _ __
  / __| '_ \| | '_ \/ __| __| '__/ _` | '_ \
